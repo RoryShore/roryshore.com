@@ -47,7 +47,7 @@ export default function Home() {
           </div>
         </div>
 
-
+      </section>
       <section className="section">
         <h2 className="sectionTitle">Highlights</h2>
         <p className="sectionText">
