@@ -1,5 +1,5 @@
 import React from "react";
-import rowingPhoto from "../assets/IMG_2735.jpeg";
+//import rowingPhoto from "../assets/IMG_2735.jpeg";
 
 export default function About() {
   return (
@@ -12,13 +12,6 @@ export default function About() {
       </section>
 
       <section className="aboutGrid">
-
-        <div className="card wide">
-          <div className="cardTitle">Me rowing</div>
-          <div className="aboutPhotoWrap">
-            <img className="aboutPhoto" src={rowingPhoto} alt="Me rowing" loading="lazy" />
-          </div>
-        </div>
         
         <div className="card">
           <div className="cardTitle">Education</div>
