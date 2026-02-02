@@ -47,18 +47,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="heroRight">
-          <div className="graphicPanel">
-            <div className="heroPhotoOverlay">
-              <div className="chip">highlights</div>
-              <div className="graphicTitle">Project snapshots</div>
-              <div className="graphicText">
-                Photos and builds rotating below — projects page has the full list.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="section">
         <h2 className="sectionTitle">Highlights</h2>
