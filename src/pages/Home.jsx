@@ -9,7 +9,7 @@ import img4 from "../assets/31DB5383-5C37-4732-89B0-3628B2DE6358.jpeg";
 import img5 from "../assets/IMG_6322.jpeg";
 import img6 from "../assets/IMG_6389.jpeg";
 import img7 from "../assets/IMG_7078.JPG";
-import img8 from "../assets/IMG_6399.png";
+//import img8 from "../assets/IMG_6399.png";
 
 export default function Home() {
   return (
@@ -67,7 +67,7 @@ export default function Home() {
         </p>
 
         <div className="slideshowWrap">
-          <Slideshow images={[img1, img2, img3, img4, img5, img6, img7, img8]} intervalMs={4500} />
+          <Slideshow images={[img1, img2, img3, img4, img5, img6, img7]} intervalMs={4500} />
         </div>
       </section>
 
