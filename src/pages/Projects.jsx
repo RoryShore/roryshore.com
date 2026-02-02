@@ -2,19 +2,34 @@ import React from "react";
 
 const projects = [
   {
-    title: "House Network + VPN",
-    desc: "Redundant ISP, VLAN segmentation, WireGuard access, and internal services.",
-    tags: ["networking", "security", "infra"]
+    title: "Professional-Grade Audio Visual",
+    desc:
+      "Designed and deployed an AV setup with professional lighting and audio. Lights are controlled via DMX, projectors are driven using Resolume Arena, and audio runs through a custom sound system tuned for the space.",
+    tags: ["av", "dmx", "resolume", "systems"]
   },
   {
-    title: "Battery BMS One-Wire (Rust)",
-    desc: "Async One-Wire driver experiments for embedded battery management workflows.",
-    tags: ["rust", "embedded", "hardware"]
+    title: "DoIT Internal Tools + QA + Deployment",
+    desc:
+      "Team lead at UW–Madison Division of Information Technology (DoIT) with a focus on internal application development, ongoing training, quality assurance, and OS deployment workflows.",
+    tags: ["leadership", "internal-tools", "qa", "deployment"]
   },
   {
-    title: "Transit UI / Bus Tracker",
-    desc: "Aggregated stop display for better nearby departure information.",
-    tags: ["web", "data", "ux"]
+    title: "Chapter Website + Server Deployment",
+    desc:
+      "Deployed and maintained the server hosting the chapter website, and built the pipeline to develop and deploy this site (roryshore.com) using Git + Docker on a Linux host.",
+    tags: ["linux", "docker", "ops", "web"]
+  },
+  {
+    title: "3D Printing + Prusa MK4 Build",
+    desc:
+      "Assembled and tuned an Original Prusa MK4 and use it for iterative prototyping. Work includes calibration, slicing workflow refinement, and printing functional parts for ongoing projects.",
+    tags: ["3d-printing", "hardware", "prototype"]
+  },
+  {
+    title: "HO Scale Model Railroad",
+    desc:
+      "Built and upgraded an HO scale layout equipped with DCC and operated via JMRI. Work includes wiring track power districts/circuits, speed calibration, programming signals, and continuing expansion.",
+    tags: ["dcc", "jmri", "electronics", "controls"]
   }
 ];
 
@@ -24,7 +39,7 @@ export default function Projects() {
       <section className="pageHeader">
         <h1 className="pageTitle">Projects</h1>
         <p className="pageSubtitle">
-          A few highlights. Each card can expand into a detail page later (or link to GitHub).
+          Highlights across infrastructure, software, AV systems, and hands-on builds.
         </p>
       </section>
 
@@ -42,25 +57,8 @@ export default function Projects() {
               </div>
             </div>
             <p className="projectDesc">{p.desc}</p>
-
-            <div className="projectActions">
-              <button className="btnTertiary" type="button">
-                Details (soon)
-              </button>
-              <button className="btnTertiary" type="button">
-                GitHub (soon)
-              </button>
-            </div>
           </article>
         ))}
-      </section>
-
-      <section className="section">
-        <h2 className="sectionTitle">Graphics-friendly layout</h2>
-        <p className="sectionText">
-          Add diagrams, architecture images, screenshots, and embedded interactive demos. The grid/cards
-          spacing is designed for visuals.
-        </p>
       </section>
     </div>
   );

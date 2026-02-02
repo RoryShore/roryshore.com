@@ -6,38 +6,38 @@ export default function About() {
       <section className="pageHeader">
         <h1 className="pageTitle">About</h1>
         <p className="pageSubtitle">
-          A quick overview. Replace this with your story, skills, and what you’re building next.
+          Systems-minded builder focused on reliable infrastructure, clean software, and documentation.
         </p>
       </section>
 
       <section className="aboutGrid">
         <div className="card">
-          <div className="cardTitle">What I do</div>
+          <div className="cardTitle">Education</div>
           <div className="cardBody">
-            I’m interested in systems, networking, and data science — building tools that are practical,
-            reliable, and well-documented.
+            UW–Madison — B.S. Computer Science and Data Science (2028)
           </div>
         </div>
 
         <div className="card">
-          <div className="cardTitle">Current focus</div>
+          <div className="cardTitle">Work</div>
           <div className="cardBody">
-            Infrastructure + automation, analytics projects, and software that improves day-to-day workflows.
+            Team lead at UW–Madison Division of Information Technology (DoIT), focused on internal
+            application development, ongoing training, quality assurance, and OS deployment.
           </div>
         </div>
 
         <div className="card">
-          <div className="cardTitle">Skills</div>
+          <div className="cardTitle">Interests</div>
           <div className="cardBody">
-            Python, Java, R, Rust • Linux • Docker • networking (VLANs/VPN) • data viz
+            Networking (VLANs/VPN), Linux + Docker, data visualization, embedded/hardware projects, and AV systems.
           </div>
         </div>
 
         <div className="card wide">
-          <div className="cardTitle">Add a “hero graphic”</div>
+          <div className="cardTitle">What you’ll find here</div>
           <div className="cardBody">
-            This page is a good spot for an illustration, headshot, or a clean diagram of your current
-            stack — the spacing is built for it.
+            Project writeups, diagrams, deployment notes, and a growing portfolio of systems work — from
+            servers and networks to software tools and physical builds.
           </div>
         </div>
       </section>
