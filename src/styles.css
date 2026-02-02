@@ -347,6 +347,19 @@ button { font: inherit; }
   grid-column: span 3;
 }
 
+.aboutPhotoWrap {
+  margin-top: 10px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--gray-100);
+}
+
+.aboutPhoto {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Slideshow */
 .slideshowWrap {
   margin-top: 14px;
