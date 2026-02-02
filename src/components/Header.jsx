@@ -29,7 +29,7 @@ export default function Header() {
           >
             About
           </NavLink>
-          <a className="navCta" href="#contact">
+          <a className="navCta" href="mailto:info@roryshore.com">
             Contact
           </a>
         </nav>
