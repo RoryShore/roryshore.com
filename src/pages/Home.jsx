@@ -2,13 +2,13 @@ import React from "react";
 import Slideshow from "../components/Slideshow.jsx";
 
 // Slideshow images (rest)
-import img1 from "../assets/IMG_8069.JPG";
-import img2 from "../assets/IMG_8536.JPG";
+import img1 from "../assets/IMG_8069.jpg";
+import img2 from "../assets/IMG_8536.jpg";
 import img3 from "../assets/IMG_6767.jpeg";
 import img4 from "../assets/31DB5383-5C37-4732-89B0-3628B2DE6358.jpeg";
 import img5 from "../assets/IMG_6322.jpeg";
 import img6 from "../assets/IMG_6389.jpeg";
-import img7 from "../assets/IMG_7078.JPG";
+import img7 from "../assets/IMG_7078.jpg";
 //import img8 from "../assets/IMG_6399.png";
 
 export default function Home() {
