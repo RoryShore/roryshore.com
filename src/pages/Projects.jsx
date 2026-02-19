@@ -10,8 +10,8 @@ const projects = [
   {
     title: "DoIT Internal Tools + QA + Deployment",
     desc:
-      "Team lead at UW–Madison Division of Information Technology (DoIT) with a focus on internal application development, ongoing training, quality assurance, and OS deployment workflows.",
-    tags: ["leadership", "internal-tools", "qa", "deployment"]
+      "Team lead at UW–Madison Division of Information Technology (DoIT) with a focus on internal application development, ongoing training, quality assurance, employee development, and OS deployment workflows.",
+    tags: ["leadership", "internal-tools", "qa", "deployment","service desk","Cherwell","Ivanti Neurons","PXE"]
   },
   {
     title: "Chapter Website + Server Deployment",
@@ -28,8 +28,20 @@ const projects = [
   {
     title: "HO Scale Model Railroad",
     desc:
-      "Built and upgraded an HO scale layout equipped with DCC and operated via JMRI. Work includes wiring track power districts/circuits, speed calibration, programming signals, and continuing expansion.",
+      "Built and upgraded an HO scale layout equipped with DCC and operated via JMRI. Work includes wiring track power districts/circuits, speed calibration, decoder customization via configuration variables, programming signals, and continuing expansion.",
     tags: ["dcc", "jmri", "electronics", "controls"]
+  },
+  {
+    title: "Minecraft Server Deployment",
+    desc:
+      "Deployed a Minecraft Bedrock server and added port forwarding to allow for access both in and out of my House",
+    tags: ["linux", "hosting"]
+  },
+  {
+    title: "Internet Replacement",
+    desc:
+      "Replaced a previous installation that used 6 unique routers connected via Coax/Cat5e with a unified ubiquiti system connected via SFP+ Fiber and Cat7/8. Installed 7 new access points and configured new traffic rules, VLANs, and port forwarding resulting in a 500% increase in internet speed",
+    tags: ["ubiquiti", "sysadmin", "installation","networking"]
   }
 ];
 
